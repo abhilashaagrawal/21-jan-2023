@@ -1,0 +1,161 @@
+.parent{
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+    position: relative;
+    animation-name: xyz;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes xyz{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.child{
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform-origin: right bottom;
+}
+.child1{
+    background: green;
+    transform: rotate(0deg);
+}
+.child2{
+    background: violet;
+    transform: rotate(11deg);
+}
+.child3{
+    background: orange;
+    transform: rotate(22deg);
+}
+.child4{
+    background: skyblue;
+    transform: rotate(33deg);
+}
+.child5{
+    background: indianred;
+    transform: rotate(44deg);
+}
+.child6{
+    background: khaki;
+    transform: rotate(55deg);
+}
+.child7{
+    background: saddlebrown;
+    transform: rotate(66deg);
+}
+.child8{
+    background: indianred;
+    transform: rotate(77deg);
+}
+.child9{
+    background: darkmagenta;
+    transform: rotate(88deg);
+}
+.child10{
+    background: darkred;
+    transform: rotate(99deg);
+}
+.child11{
+    background: red;
+    transform: rotate(110deg);
+}
+.child12{
+    background: brown;
+    transform: rotate(121deg);
+}
+
+.child13{
+    background: olive;
+    transform: rotate(132deg);
+}
+
+.child14{
+    background: hotpink;
+    transform: rotate(143deg);
+}
+.child15{
+    background: grey;
+    transform: rotate(154deg);
+}
+.child16{
+    background: gold;
+    transform: rotate(165deg);
+}
+.child17{
+    background: aquamarine;
+    transform: rotate(176deg);
+}
+.child18{
+    background: blueviolet;
+    transform: rotate(186deg);
+}
+.child19{
+    background: teal;
+    transform: rotate(197deg);
+}
+.child20{
+    background: tomato;
+    transform: rotate(208deg);
+}
+.child21{
+    background: orchid;
+    transform: rotate(219deg);
+}
+.child22{
+    background: honeydew;
+    transform: rotate(230deg);
+}
+.child23{
+    background: gainsboro;
+    transform: rotate(241deg);
+}
+.child24{
+    background: navy;
+    transform: rotate(252deg);
+}
+.child25{
+    background: chartreuse;
+    transform: rotate(263deg);
+}
+.child26{
+    background: cadetblue;
+    transform: rotate(274deg);
+}
+.child27{
+    background: darkolivegreen;
+    transform: rotate(285deg);
+}
+.child28{
+    background: lawngreen;
+    transform: rotate(296deg);
+}
+.child29{
+    background: darkcyan;
+    transform: rotate(307deg);
+}
+.child30{
+    background: plum;
+    transform: rotate(318deg);
+}
+.child31{
+    background: sandybrown;
+    transform: rotate(329deg);
+}
+.child32{
+    background: darkolivegreen;
+    transform: rotate(340deg);
+}
+
+
+
